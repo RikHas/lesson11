@@ -13,11 +13,10 @@ print_params(c=[1,2,3])
 
 values_list = [4, 'lee', False]
 values_dict = {'a': 54, 'b': 'Kirill', 'c': False}
-
-   # Распаковка + отдельные параметры:
-
 print_params(*values_list)
 print_params(**values_dict)
+
+    # Распаковка + отдельные параметры:
 
 values_list_2 = [3, 'Rik']
 print_params(*values_list_2, 42)
